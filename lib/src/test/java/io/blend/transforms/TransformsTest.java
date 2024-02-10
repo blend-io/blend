@@ -42,7 +42,7 @@ public class TransformsTest {
         String initialValue2 = "CMP";
         String resolvedValue2 = String.valueOf(transform.resolve(initialValue2, argsWithDefault));
         String resolvedValue3 = String.valueOf(transform.resolve(initialValue2, argsWithoutDefault));
-        assertEquals("Rejected", resolvedValue1);
+        assertEquals("Rejected1", resolvedValue1);
         assertEquals("Default-Value", resolvedValue2);
         assertEquals(initialValue2, resolvedValue3);
     }
