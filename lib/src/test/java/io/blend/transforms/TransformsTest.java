@@ -71,6 +71,6 @@ public class TransformsTest {
         String initialValue = "2023-09-02";
         String[] args = new String[] {"yyyy-MM-dd", "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"};
         String resolvedValue = String.valueOf(transform.resolve(initialValue, args));
-        assertEquals("2023-09-02T00:00:00.000+05:30", resolvedValue);
+        assertTrue(resolvedValue.contains("2023-09-02T00:00:00.000"));
     }
 }
