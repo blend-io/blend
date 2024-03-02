@@ -1,4 +1,4 @@
-package io.blend.transforms;
+package club.theblend.transforms;
 
 public class ConcreteTransformFactory implements TransformsFactory {
 

@@ -1,4 +1,4 @@
-package io.blend.models;
+package club.theblend.models;
 
 import java.util.List;
 
