@@ -44,6 +44,11 @@ publishing {
             }
         }
     }
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
