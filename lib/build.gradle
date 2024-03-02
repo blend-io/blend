@@ -36,7 +36,7 @@ dependencies {
 publishing {
     repositories {
         maven {
-            name = "OSSRH"
+            name = "GitHubPackages"
             url = "https://maven.pkg.github.com/blend-io/blend"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
