@@ -1,12 +1,12 @@
-package io.blend;
+package club.theblend;
 
+import club.theblend.models.BlendConfig;
+import club.theblend.transforms.ConcreteTransformFactory;
+import club.theblend.transforms.Transform;
+import club.theblend.transforms.TransformsFactory;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import io.blend.models.BlendConfig;
-import io.blend.transforms.ConcreteTransformFactory;
-import io.blend.transforms.Transform;
-import io.blend.transforms.TransformsFactory;
 
 import java.io.File;
 import java.io.IOException;

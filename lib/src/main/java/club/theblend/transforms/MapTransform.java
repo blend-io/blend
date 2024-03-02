@@ -1,4 +1,4 @@
-package io.blend.transforms;
+package club.theblend.transforms;
 
 import java.util.HashMap;
 import java.util.Map;
