@@ -12,7 +12,7 @@ plugins {
 }
 
 group = 'club.theblend' 
-artifactId = 'blend'
+archiveBaseName = 'blend'
 version = '1.0.0'
 
 repositories {
