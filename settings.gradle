@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = 'blend'
-include('lib')
+include('blend')

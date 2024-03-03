@@ -40,5 +40,5 @@ jobs:
     - name: Publish to MAVEN
       run: ./gradlew publish
       env:
-        MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
-        MAVEN_PASSWORD: ${{ secrets.MAVEN_PASSWORD }}
+        GITHUB_ACTOR: ${{ github.actor }}
+        BLEND_TOKEN: ${{ secrets.BLEND_TOKEN }}
