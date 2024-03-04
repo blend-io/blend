@@ -11,4 +11,4 @@ Iterated over the patches provided in *YAML* file and applies them one by one. T
 ### Step 3 - De-flatten
 Build back the nested JSON structure, inverse of *Step 1* - resulting the target structure.
 
-![Blend - The Algo](https://ibb.co/qB3nMBL)
+[Imgur](https://i.imgur.com/azgPHUU.png)
