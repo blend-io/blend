@@ -124,9 +124,10 @@ implementation 'club.theblend:blend:1.0.0'
 #### Convert from source to target in just one line of code!
 `Target target = blend.convert(sourceJSON, Target.class)`
 
-## Contributing
+## Want to contribute
 
-Contributions for extending transforms are highly appreciated. Refer CONTRIBUTING.md
+- Contributions for extending transforms are highly appreciated.
+- Refer [ALGORITHM.md](ALGORITHM.md) to understand Blend's internal object mapping algorithm
 
 
 
